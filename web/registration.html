@@ -1,0 +1,79 @@
+
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="registration.css">
+        <script type="text/javascript" src ="registrationjs"></script>
+        <!---<? php include('index.php') ?>-->
+    </head>
+    <body>
+        <form name="form1" class="signup-form" method="post"> 
+
+
+            <!-- form header -->
+            <div class="form-header">
+                <h1>Create Account</h1>
+            </div>
+
+
+            <!-- form body --->
+            <div class="form-body">
+                <!-- Firstname and Lastname -->
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="firstname" class="label-title">First name *</label>
+                        <input type="text" name="firstname" id="firstname" class="form-input" placeholder="enter your first name" required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="lastname" class="label-title">Last name</label>
+                        <input type="text" name="lastname" id="lastname" class="form-input" placeholder="enter your last name" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="label-title">Email*</label>
+                    <input type="email" name="email" id="email" class="form-input" placeholder="enter your email" required="required" />
+                </div>
+
+
+                <!-- Passwrod and confirm password -->
+                <div class="horizontal-group">
+                    <div class="form-group left">
+                        <label for="password" class="label-title">Password *</label>
+                        <input type="password" name="password_1" id="password" class="form-input" placeholder="enter your password" required="required" />
+                    </div>
+                    <div class="form-group right">
+                        <label for="confirm-password" class="label-title">Confirm Password *</label>
+                        <input type="password" name="password_2" class="form-input" id="confirm-password" placeholder="enter your password again" required="required" />
+                    </div>
+                </div>
+
+                <!-- mobile number -->
+                <div class="form-group">
+                    <label for="Mobilenumber" class="label-title">Mobile Number*</label>
+                    <input type="text" name="mobnum" id="mobilenumber" class="form-input" placeholder="enter your mobile number" required="required" />
+                </div>
+
+                <div class="form-footer">
+                    <button type="submit" name="reg_user" class="btn" formaction="registerusers">Create</button>
+                </div>
+
+                <div class="form-footer">
+                    <p>Already have an account,<a href="index.html">click here</a></p>
+                </div>
+            </div>
+
+
+        </form>
+        <!--- </main>  --->
+    </body>
+</html>
