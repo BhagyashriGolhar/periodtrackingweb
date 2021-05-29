@@ -62,7 +62,7 @@ public class olduser extends HttpServlet {
 "<html>\n" +
 "<head>\n" +
 "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n" +
-"<link rel=\"stylesheet\" href=\"dashboardcss.css\">\n" +
+"<link rel=\"stylesheet\" href=\"web/dashboardcss.css\">\n" +
 "</head>\n" +
 "<body>\n" +
 "    \n" +
@@ -109,7 +109,7 @@ public class olduser extends HttpServlet {
 "\n" +
 "        <meta charset=\"UTF-8\">\n" +
 "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n" +
-"        <link rel=\"stylesheet\" href=\"logincss.css\">\n" +
+"        <link rel=\"stylesheet\" href=\"web/logincss.css\">\n" +
 "        \n" +
 "    </head>\n" +
 "    <body>\n" +
@@ -132,11 +132,11 @@ public class olduser extends HttpServlet {
 "                    </div>\n" +
 "\n" +
 "\n" +
-"                    <input type=\"submit\" value=\"Login\" id=\"login-form-submit\" formaction=\"olduser\" >\n" +
+"                    <input type=\"submit\" value=\"Login\" id=\"login-form-submit\" formaction=\"src/java/olduser\" >\n" +
 "               \n" +
 "\n" +
 "               \n" +
-"                <p>Don't have an account,<a href=\"registration.html\">click here</a></p>\n" +
+"                <p>Don't have an account,<a href=\"web/registration.html\">click here</a></p>\n" +
 "                    \n" +
 "                    \n" +
 "                     </div>\n" +
