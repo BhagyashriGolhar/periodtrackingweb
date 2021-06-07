@@ -89,10 +89,10 @@ public class registerusers extends HttpServlet {
 "            <input type=\"password\" name=\"passw\" class=\"form-input\" id=\"password-field\" placeholder=\"Enter password\">\n" +
 "            </div>\n" +
 "            \n" +
-"            <input type=\"submit\" value=\"Login\" id=\"login-form-submit\" formaction=\"olduser\" >\n" +
+"            <input type=\"submit\" value=\"Login\" id=\"login-form-submit\" formaction=\"src/java/olduser\" >\n" +
 "            </div>\n" +
 "            \n" +
-"            <p>Don't have an account,<a href=\"registration.html\">click here</a></p>\n" +
+"            <p>Don't have an account,<a href=\"web/registration.html\">click here</a></p>\n" +
 "        </form>\n" +
 "        </main>\n" +
 "    </body>\n" +
