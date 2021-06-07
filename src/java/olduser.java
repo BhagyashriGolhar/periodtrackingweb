@@ -132,7 +132,7 @@ public class olduser extends HttpServlet {
 "                    </div>\n" +
 "\n" +
 "\n" +
-"                    <input type=\"submit\" value=\"Login\" id=\"login-form-submit\" formaction=\"src/java/olduser.java\" >\n" +
+"                    <input type=\"submit\" value=\"Login\" id=\"login-form-submit\" formaction=\"src/java/olduser\" >\n" +
 "               \n" +
 "\n" +
 "               \n" +
