@@ -44,9 +44,14 @@ public class olduser extends HttpServlet {
             PreparedStatement ps=null;
             Statement stmt;
             int flag=0;
-             conn=dbconnection.connect();
+             //conn=dbconnection.connect();
              try
             {
+                 
+                  Class.forName("com.mysql.jdbc.Driver");/*creates driver class object registered 
+                                                   with drivermanger service automatically*/
+            conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/periodtracking?","root","");
+           
                 stmt=conn.createStatement();
                 rs=stmt.executeQuery("select * from users");
                 while(rs.next())
