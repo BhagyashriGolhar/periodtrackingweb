@@ -48,9 +48,7 @@ public class olduser extends HttpServlet {
              try
             {
                  
-                  Class.forName("com.mysql.jdbc.Driver");/*creates driver class object registered 
-                                                   with drivermanger service automatically*/
-            conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/periodtracking?","root","");
+                 
            
                 stmt=conn.createStatement();
                 rs=stmt.executeQuery("select * from users");
